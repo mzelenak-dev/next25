@@ -2,11 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <>
-      <br />
-      <hr />
-      <p>this is the footer</p>
-    </>
+    <footer>
+      <p>Thank you for visiting my site!</p>
+    </footer>
   )
 }
 

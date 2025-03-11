@@ -1,31 +1,19 @@
 import Link from 'next/link';
-import React from 'react'
+// import React from 'react'
 
 const Header = () => {
   return (
-    <>
+    <header>
+      <div id="logo">
+        <a href="/">
+          <img src="icon.png" />
+        </a>
+      </div>
       <nav>
-        <ul>
-          <li>
-            <Link href="/about/">About</Link>
-          </li>
-          <li>
-            <Link href="/albums/">Albums</Link>
-          </li>
-          <li>
-            <Link href="/dashboards/">Dashboards</Link>
-          </li>
-          <li>
-            <Link href="/dashboards/users/">User Dashboards</Link>
-          </li>
-          <li>
-            <Link href="/dashboards/analytics/">Analytics</Link>
-          </li>
-        </ul>
+        <Link href="/about/">About</Link>
+        <Link href="/albums/">Albums</Link>
       </nav>
-      <hr />
-      <br />
-    </>
+    </header>
   )
 }
 
